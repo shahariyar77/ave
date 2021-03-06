@@ -1,0 +1,400 @@
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (portrait and landscape) ---------------------- */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+  
+    
+.top-manu {
+  margin-left: -125px;
+}
+.manu-cta {
+  margin-left: -7px;
+}
+    .logo a {
+	font-size: 21px;
+}
+ .serach-ber input[type="search"] {
+	width: 83%;
+}
+    .team-img img {
+	max-width: 113px;
+	height: 400px;
+}
+ .team-detalce-table-cell p {
+	padding: 0;
+}
+    .footer-text {
+	font-size: 27px;
+}
+  .logo-area img {
+	max-width: 100px;
+}  
+ .localsotre-area h5 {
+	font-size: 11px;
+}   
+ .map-site-ber li span {
+	font-size: 13px;
+}   
+ .sing-up-form span {
+	padding-left: 18%;
+}   
+ p.cheack-box {
+	font-size: 9px;
+}   
+ span.right-text {
+	font-size: 10px;
+}
+    
+    a.box-btn {
+	font-size: 10px;
+	padding: 13px 17px;
+	
+}
+    .view-tittle li a {
+	font-size: 10px;
+}
+    .view-btn a {
+	font-size: 13px;
+	padding: 10px 10px;
+	
+}
+    .footer-arer h5 {
+	font-size: 10px;
+}
+} 
+    
+   
+/*------------------- 768 tablate & mobile layout -------------------- */
+
+@media only screen and (max-device-width: 991px) {
+    .main-manu{
+        display: none;
+    }
+    .slicknav_menu {
+	display: block;
+}
+    .slicknav_menu, .slicknav_menu * {
+	font-size: 15px;
+}
+    .subtittle {
+	margin-left: 0;
+	
+}
+    .top-manu {
+	text-align: center;
+}
+    a.top-text,.site-manu {
+	visibility: hidden;
+}
+    .logo a {
+	font-size: 15px;
+	margin-left: -9px;
+	margin-top: 5px;
+}
+    .logo {
+	margin-top: -32px;
+	width: 40%;
+}
+    .serach-ber {
+	position: absolute;
+	right: 0;
+	top: -32px;
+	z-index: 999;
+	width: 50%;
+	padding: 5px;
+}
+    .single-slide-item {
+	height: 330px;
+}
+    a.slide-btn {
+	right: 0;
+	font-size: 14px;
+}
+    .portfulio-hover.larg {
+	width: 93%;
+	margin-left: -5px;
+}
+    .filter-project li {
+	margin: 0 4px;
+	font-size: 10px;
+	
+}
+.space-60 {
+	height: 30px;
+}
+    .section-padding {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+    .team-detalce-table-cell p {
+	padding: 0;
+}
+    .team-img img {
+	max-width: 100px;
+	height: 400px;
+}
+    .single-team-item {
+	margin-bottom: 30px;
+}
+    .footer-arer ul {
+	margin-bottom: 35px;
+}
+    .footer-text h2 {
+	font-size: 25px;
+}
+    .footer-text {
+	font-size: 20px;
+    margin-bottom: 30px;
+	
+}
+    .social-area a {
+	padding: 32px 27px;
+	
+}
+    .last-footer {
+	text-align: center;
+}
+    .logo-area img {
+	max-width: 76px;
+}
+    .space-90 {
+	height: 50px;
+}
+    .mobile-30 {
+	margin-bottom: 30px;
+}
+    .map-site-ber li span {
+	font-size: 12px;
+}
+    .potfulio-img img {
+	display: none;
+}
+    .potfulio-text h2 {
+	font-size: 24px;
+}
+    .breadcome-area h2 {
+	font-size: 27px;
+}
+    .breadcome-area p {
+	font-size: 12px;
+}
+    .breadcome-area span {
+	margin-top: 5px;
+	display: inline-block;
+}
+    .filter-project-2 li {
+	margin: 0 10px;
+    font-size: 12px;
+}
+    .view-btn a {
+	font-size: 7px;
+}
+    .tab-area {
+	padding-bottom: 50px;
+}
+    .sing-up-form span {
+	font-size: 12px;
+	padding-left: 10%;
+}
+    .sing-up-form input[type="submit"] {
+	margin-bottom: 30px;
+}
+    span.right-text {
+	margin-top: 20px;
+    display: inline-block;
+	
+}
+}
+
+/*-----------------=== only tablate layout===-----------------------*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+     .site-manu {
+	visibility: visible;
+}
+    .top-manu li a {
+	font-size: 12px;
+	padding: 8px 10px;
+	
+}
+    .logo {
+	width: 100%;
+    margin-top: 0;
+}
+    .serach-ber {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	z-index: 999;
+	width: 100%;
+	padding: 5px;
+}
+    .team-img img {
+	max-width: 60px;
+	height: 380px;
+}
+  .team-detalce-table-cell p {
+	margin-bottom: 22px;
+	font-size: 11px;
+}
+    a.box-btn {
+	font-size: 11px;
+}
+    .team-detalce-table-cell h2 {
+	font-size: 20px;
+}
+    .footer-arer li {
+	font-size: 7px;
+	line-height: 24px;
+	
+}
+    .footer-arer h5 {
+	font-size: 8px;
+}
+    .header-area {
+	padding: 16px 0;
+}
+  .header-area.header-absulote {
+	top: 62px;
+}
+    .logo-area img {
+	max-width: 130px;
+}
+    .last-footer ul li {
+	padding-left: 6px;
+}
+    .map-site-ber li span {
+	font-size: 9px;
+}
+    .localsotre-area h5 {
+	font-size: 10px;
+}
+    .sing-carousel-item {
+	margin-bottom: 40px;
+}
+}
+/*================= 320  mobile lay out   =======================*/
+@media only screen and (max-device-width: 767px){
+    .main-manu{
+       display: none;
+    }
+    a.top-text,.site-manu {
+	display: none;
+}
+    .logo a {
+	font-size: 15px;
+	margin-left: -9px;
+	margin-top: 5px;
+}
+    .logo {
+	margin-top: -32px;
+	width: 50%;
+}
+    .single-slide-item {
+	height: 330px;
+}
+    a.slide-btn {
+	right: 0;
+	font-size: 14px;
+}
+    .portfulio-hover.larg {
+	width: 93%;
+	margin-left: -5px;
+}
+    .filter-project li {
+	margin: 0 4px;
+	font-size: 10px;
+	
+}
+.space-60 {
+	height: 30px;
+}
+    .section-padding {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+    .team-detalce-table-cell p {
+	padding: 0;
+}
+    .team-img img {
+	max-width: 100px;
+	height: 400px;
+}
+    .single-team-item {
+	margin-bottom: 30px;
+}
+    .footer-arer ul {
+	margin-bottom: 35px;
+}
+    .footer-text h2 {
+	font-size: 25px;
+}
+    .footer-text {
+	font-size: 20px;
+    margin-bottom: 30px;
+	
+}
+    .social-area a {
+	padding: 32px 27px;
+	
+}
+    .last-footer {
+	text-align: center;
+}
+    .logo-area img {
+	max-width: 76px;
+}
+    .space-90 {
+	height: 50px;
+}
+    .mobile-30 {
+	margin-bottom: 30px;
+}
+    .map-site-ber li span {
+	font-size: 12px;
+}
+    .potfulio-img img {
+	display: none;
+}
+    .potfulio-text h2 {
+	font-size: 24px;
+}
+    .breadcome-area h2 {
+	font-size: 27px;
+}
+    .breadcome-area p {
+	font-size: 12px;
+}
+    .breadcome-area span {
+	margin-top: 5px;
+	display: inline-block;
+}
+    .filter-project-2 li {
+	margin: 0 10px;
+    font-size: 12px;
+}
+    .view-btn a {
+	font-size: 7px;
+}
+    .tab-area {
+	padding-bottom: 50px;
+}
+    .sing-up-form span {
+	font-size: 12px;
+	padding-left: 10%;
+}
+    .sing-up-form input[type="submit"] {
+	margin-bottom: 30px;
+}
+    span.right-text {
+	margin-top: 20px;
+    display: inline-block;
+	
+}
+}
+
